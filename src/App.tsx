@@ -111,7 +111,7 @@ export const App = () => {
 
     sendDataToGA({
       type: "Семейная + 2 участника",
-      price: "+300 ₽ в месяц",
+      price: "699",
     }).then(() => {
       setLoading(false);
       setThxShow(true);
